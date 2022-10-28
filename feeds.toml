@@ -1,13 +1,9 @@
-[funfacts]
-title = "Wikipedia — did you know?"
-url = "https://en.wikipedia.org/wiki/Main_Page"
-entrySelector = "#mp-dyk > ul li"
-titleSelector = "b"
-linkSelector = "b a"
 
-[wikivoyage]
-title = "Wikivoyage recommendations"
-url = "https://en.wikivoyage.org/wiki/Main_Page"
-entrySelector = ".jcarousel-wrapper .jcarousel-item"
-titleSelector = "h2"
-linkSelector = "h2 a"
+
+[libe-ukraine]
+title = "Libération Tag Ukraine"
+url = "https://www.liberation.fr/tags/ukraine/"
+entrySelector = ".left-article-section .custom-card-list article"
+titleSelector = ".col-sm-xl-12 h2"
+linkSelector = ".col-sm-xl-12 a.color_grey_4"
+contentSelector= ".col-sm-xl-12 p.description-text"
